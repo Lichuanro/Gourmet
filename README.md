@@ -12,4 +12,4 @@ which is a hot food blog website sharing good food and recipes.
 
 
 ## References
-![image](http://github.com/Lichuanro/Gourmet/raw/master/images-folder/references.png)
+![image](http://github.com/Lichuanro/Gourmet/raw/master/images-folder/reference.png)
