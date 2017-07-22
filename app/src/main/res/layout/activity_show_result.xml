@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.licor.gourmet.showResult">
+
+    <TextView
+        android:id="@+id/titleTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="This is the result"
+        android:textAppearance="@android:style/TextAppearance.Material.Large" />
+
+
+    <ImageView
+        android:id="@+id/resultImageView"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:layout_alignParentStart="true"
+        android:layout_below="@id/titleTextView"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="40dp"
+        app:srcCompat="@android:color/transparent" />
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="120dp"
+        android:layout_toRightOf="@id/resultImageView"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/resultTitleTextView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:clickable="true"
+            android:onClick="textPressed"
+            android:tag="0"
+            android:text="the result" />
+
+        <TextView
+            android:id="@+id/resultTitleTextView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:layout_weight="1"
+            android:clickable="true"
+            android:onClick="textPressed"
+            android:tag="1"
+            android:text="the result" />
+
+        <TextView
+            android:id="@+id/resultTitleTextView3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:layout_weight="1"
+            android:clickable="true"
+            android:onClick="textPressed"
+            android:tag="2"
+            android:text="the result" />
+
+        <TextView
+            android:id="@+id/resultTitleTextView4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:layout_weight="1"
+            android:clickable="true"
+            android:onClick="textPressed"
+            android:tag="3"
+            android:text="the result" />
+
+        <TextView
+            android:id="@+id/resultTitleTextView5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:layout_weight="1"
+            android:clickable="true"
+            android:onClick="textPressed"
+            android:tag="4"
+            android:text="the result" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/resultDetailTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/resultImageView"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="40dp"
+        android:layout_marginRight="40dp"
+        android:layout_marginTop="69dp"
+        android:text="the description of the result" />
+
+    <ProgressBar
+        android:id="@+id/progressBar"
+        style="?android:attr/progressBarStyle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/titleTextView"
+        android:layout_alignTop="@+id/linearLayout"
+        android:layout_marginTop="18dp" />
+
+    <Button
+        android:id="@+id/backButton"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_alignEnd="@+id/resultDetailTextView"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="31dp"
+        android:background="@drawable/back_button_img"
+        android:onClick="goBack" />
+
+</RelativeLayout>
