@@ -8,8 +8,8 @@ along with the feature of get the latest bogs from imafoodblog website,
 which is a hot food blog website sharing good food and recipes.
 
 
-![image](http://github.com/Lichuanro/Gourmet/raw/master/images-folder/main.png)
+![image](https://raw.githubusercontent.com/Lichuanro/Gourmet/master/images-folder/main.png)
 
 
 ## References
-![image](http://github.com/Lichuanro/Gourmet/raw/master/images-folder/reference.png)
+![image](https://raw.githubusercontent.com/Lichuanro/Gourmet/master/images-folder/reference.png)
